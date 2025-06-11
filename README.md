@@ -1,85 +1,45 @@
-# Képnézegető alkalmazás
+# Képnézegető2
 
-Célunk egy egyszerű képnézegető program létrehozása, aminek segítségével a felhasználók képesek képeket betölteni, előre/hátra lapozni, kicsinyíteni, nagyítani, elforgatni, illetve tükrözni. 
+Kepnezegeto2 is a simple and user-friendly image viewer application developed in Java, featuring essential image browsing functionalities combined with a unique, feminine-themed user interface.
 
-## Követelmények:
+## Features
+- Supports loading and viewing of multiple image formats: JPG, JPEG, PNG
+- Navigate easily between images with previous and next buttons
+- Images are displayed centered within the application window
+- Zoom in and out functionality for image resizing
+- Rotate and mirror images for flexible viewing options
+- Save images in supported formats after editing
+- Display image metadata including file name, resolution, size, file path, and modification date
+- Custom UI with pink background and buttons, designed for an intuitive and visually appealing experience
 
-- Lehessen vele képeket betölteni, lapozgatni
+## Technical Requirements
+- Developed using Java
+- Supports various common image formats (JPG, PNG, JPEG)
+- Robust error handling: alerts users when unsupported file formats are selected, provides error messages for failed image loading, resets to default state upon unexpected errors
 
-- Többféle fájltípust meg lehessen nyitni benne, illetve lementeni (jpg, png, jpeg)
+## User Support
+- Comprehensive user manual included for ease of use
+- Personal support available from developers for troubleshooting and assistance
 
-- A képek középre igazítva jelenjenek meg az ablakban
+## Intended Use
+- Kepnezegeto2 provides a streamlined and aesthetically pleasing environment for quick and easy image browsing and basic editing, tailored for users who appreciate a clean and feminine design.
 
-- A képeket lehessen nagyítani és kicsinyíteni, forgatni és tükrözni
+## Future Development
+- Currently, no updates are planned. The application fulfills the core requirements and provides a stable user experience.
 
-- Az alkalmazásnak rózsaszín háttérszíne legyen
+## Usage Instructions
+- Use the Betoltes button to open images.
+- Navigate through images using the previous and next buttons.
+- Zoom, rotate, and mirror images using the corresponding controls.
+- View detailed image properties with the Tulajdonsagok button.
+- Save any changes to images using the Mentes button.
 
-- A gombok szív/virág alakúak legyenek, legyen rajtuk masni vagy rózsaszínek legyenek (valamilyen lányos stílus)
+## Visual Design
+- Background color: soft pink (255, 200, 221)
+- Buttons color: pink (226, 115, 150)
+- Focus on simplicity and user-friendly interface design
 
-- Egyszerű legyen a használata
+## Contact
+For feedback, contributions, or support, please contact the developer.
 
-- Meg lehessen nézni a képről tárolt adatokat
 
-- Java-ban legyen fejlesztve
-
-## Funkciók:
-
-- Kép megnyitás, elöző- és következő kép megjelenítése
-
-- Eltérő fájltípusok megjelenítése
-
-- Képek középre igazítása
-
-- Kép méretének változtatása
-
-- Kép pozíciójának változtatása
-
-- Tulajdonságok megjelenítése (név, felbontás, méret, útvonal, dátum)
-
-## Formai megkötések:
-
-- Letisztult, egyszerű kezelőfelület
-
-## Fejlesztő környezet:
-
-- Java
-
-## Stílus meghatározása:
-
-A Képnézegető a többi képnézegető szoftvertől eltérően az elvárt funkciók teljesítése mellett egy egyedi lányos felületet biztosít, így a felhasználó egyedi környezetben veheti igénybe számos funkciók egyikét.
-
-## Egyedi felület alkotóelemei:
-
-- Rózsaszín háttérszín
-
-- Rózsaszín gombok
-
-## Felhasználás
-
-- Az alkalmazás egyszerű és gyors képnézegetést tesz lehetővé
-
-- A kezelőfelület intuitív
-
-- A képek közötti lapozás, nagyítás, forgatás könnyen elérhető gombokkal történik
-
-- Kellemes vizuális élményt nyújt a felhasználók számára
-
-## Szoftverhez adott felhasználói segítség:
-
-- Várható felhasználói kézikönyv
-
-- FAQ (Gyakran ismételt kérdések és a hozzájuk tásuló válaszok)
-
-- Személyes segítség is igénybe vehető maguktól a fejlesztőktől
-
-## Hibakezelés:
-
-- Ha egy fájlformátum nem támogatott, a program figyelmeztető üzenetet jelenít meg
-
-- Ha egy kép betöltése sikertelen, a felhasználó hibaüzenetet kap
-
-- Ha egy funkció használata közben hiba lép fel, az alkalmazás visszatér az alapállapotba
-
-## Várható Updatek:
-
-- A szoftverhez nincs tervezett update
